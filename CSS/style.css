@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+
+    /* color:green; */
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* for nevbar */
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    border: 2px solid gray;
+    border-radius: 100px;
+
+}
+
+.navbar {
+    display: flex;
+    /* background-color: #76716b; */
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    /* cursor: pointer; */
+}
+
+.nav-list {
+    display: flex;
+    width: 80%;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    width: 130px;
+    margin: 8px;
+    padding: 7px;
+    list-style: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(221, 212, 212);
+
+}
+
+.nav-list li a:hover {
+    color: green;
+}
+
+.nav-list li:hover {
+    color: rgb(42, 195, 75);
+    cursor: pointer;
+    background-color: rgb(52, 48, 48);
+    border-radius: 6px;
+   
+}
+
+.getstarted {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.getstarted-btn {
+    width: 100%;
+    background-color: rgb(75, 131, 75);
+    color: white;
+    border-radius: 17px;
+    border: 2px solid rgb(59, 72, 59);
+    padding: 9px;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.getstarted-btn:hover {
+    cursor: pointer;
+    background-color: rgb(65, 118, 65);
+}
+
+.right-nav {
+    /* background-color: red; */
+    width: 20%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#search {
+    padding: 4px;
+    text-align: center;
+    width: 10%;
+    border-radius: 8px;
+    font-size: 17px;
+    border: 2px solid rgb(147, 133, 133);
+}
+
+#search:hover {
+    width: 60%;
+    border-radius: 8px;
+    transition: all 2s ease-out;
+    border: 2px solid rgb(133, 188, 218);
+}
+
+.btn-sm {
+    padding: 3px;
+    border-radius: 16px;
+    background-color: rgb(203, 180, 180);
+    border: 2px solid rgb(147, 133, 133);
+    font-size: 16px;
+}
+
+.btn-sm:hover {
+    cursor: pointer;
+    color: rgb(77, 135, 170);
+    background-color: rgb(226, 217, 217);
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    background-color: white;
+    width: 30px;
+    height: 2px;
+    margin: 6px 10px;
+}
+
+/* first section start from here */
+/* ------------------------------------------- */
+.background {
+    background: rgb(145, 106, 106) url('../image/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.secondHalf {
+    width: 20%;
+
+}
+
+.secondHalf img {
+    width: 70%;
+    padding: 1.2px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    display: block;
+    margin: auto;
+}
+
+.p-big {
+    font-size: 30px;
+    padding: 38px;
+
+}
+
+.p-small {
+    font-size: 14px;
+}
+
+.buttons .btn1 {
+    background: none;
+    color: white;
+    margin: 15px;
+    padding: 4px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+
+.buttons .btn1:hover {
+    background-color: rgb(229, 71, 71);
+    color: white;
+    cursor: pointer;
+}
+
+.buttons .btn2 {
+    margin: 15px;
+    background: none;
+    color: white;
+    padding: 2px;
+    border: 2px solid rgb(237, 230, 230);
+    border-radius: 8px;
+}
+
+.buttons .btn2:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* second section start from here */
+/* ------------------------------------------------------ */
+.section {
+    /* height: 250px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    /* margin: 0px 100px ; */
+    padding: 0px 70px;
+}
+
+.imgFluid {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* last section */
+/* ------------------------------ */
+.contact {
+    background-color: #e7e6e5;
+    height: 80vh;
+}
+
+.contact-head {
+    text-align: center;
+    padding: 20px;
+    margin-top: 12px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: 29px auto;
+}
+
+.contact-form-input {
+
+    width: 100%;
+    margin: 5px 15px 15px 15px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.dark-btn {
+    background: none;
+    color: rgb(53, 47, 47);
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    margin: 12px 200px;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+}
+
+.dark-btn:hover {
+    cursor: pointer;
+    background-color: rgb(65, 118, 65);
+    color: white;
+}
+
+.copyRight {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #76716b;
+
+}
+
+/* -------------------------------------------------- */
+/* for dropDeown */
+.dropDownMenu {
+    display: none;
+    background-color: rgb(167, 157, 157);
+    position: absolute;
+    border: 2px solid #7eb3c5;
+    border-radius: 7px;
+}
+
+.Dropdown:hover .dropDownMenu {
+    display: block;
+}
+
+.deepdrop-sidemenu {
+    display: none;
+    background-color: rgb(167, 157, 157);
+    position: absolute;
+    width: 150px;
+    margin-left: 130px;
+    top: 20%;
+
+    border: 2px solid #7eb3c5;
+    border-radius: 7px;
+}
+
+.DeepDropdown:hover .deepdrop-sidemenu {
+    display: block;
+}
